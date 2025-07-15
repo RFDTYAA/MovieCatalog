@@ -20,7 +20,9 @@ jobs:
         with:
           xcode-version: "16.2"
 
-      # Langkah paling penting untuk disesuaikan
+      - name: Resolve Swift Packages
+        run: xcodebuild -resolvePackageDependencies -project MovieCatalog.xcodeproj -scheme MovieCatalog
+
       - name: Build and Test
         run: |
           xcodebuild clean build test \

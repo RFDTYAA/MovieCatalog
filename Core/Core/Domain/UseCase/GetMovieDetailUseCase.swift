@@ -1,6 +1,6 @@
 import Combine
 import Foundation
-import Shared
+import SharedMovieModule
 
 public struct GetMovieDetailUseCase {
   private let repo: MovieRepository

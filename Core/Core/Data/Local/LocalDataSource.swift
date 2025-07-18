@@ -1,7 +1,7 @@
 import Combine
 import CoreData
 import Foundation
-import Shared
+import SharedMovieModule
 
 public protocol LocalDataSourceProtocol {
   func getFavorites() -> AnyPublisher<[MovieEntity], Error>

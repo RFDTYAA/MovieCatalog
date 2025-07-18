@@ -1,6 +1,6 @@
 import Combine
 import Foundation
-import Shared
+import SharedMovieModule
 
 public protocol MovieRepository {
   func fetchPopularMovies() -> AnyPublisher<[Movie], Error>

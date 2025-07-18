@@ -1,5 +1,5 @@
 import Foundation
-import Shared
+import SharedMovieModule
 
 struct ModelMapper {
   static func map(response: MovieResponse) -> Movie {

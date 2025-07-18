@@ -1,6 +1,6 @@
 import Foundation
 import Combine
-import Shared
+import SharedMovieModule
 
 public class MovieRepositoryImpl: MovieRepository {
     private let remote: RemoteDataSourceProtocol

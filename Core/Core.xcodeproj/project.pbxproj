@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D47EE8D2E0D2AB500A2C96D /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D47EE822E0D2AB500A2C96D /* Core.framework */; };
 		1D47EF4D2E0D567B00A2C96D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D47EF4C2E0D567B00A2C96D /* Alamofire */; };
-		1DFBDD0C2E28BC6700C0ABA4 /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 1DFBDD0B2E28BC6700C0ABA4 /* Shared */; };
+		1D7DE5092E2AA86F005566E5 /* SharedMovieModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1D7DE5082E2AA86F005566E5 /* SharedMovieModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D47EF4D2E0D567B00A2C96D /* Alamofire in Frameworks */,
-				1DFBDD0C2E28BC6700C0ABA4 /* Shared in Frameworks */,
+				1D7DE5092E2AA86F005566E5 /* SharedMovieModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +132,7 @@
 			name = Core;
 			packageProductDependencies = (
 				1D47EF4C2E0D567B00A2C96D /* Alamofire */,
-				1DFBDD0B2E28BC6700C0ABA4 /* Shared */,
+				1D7DE5082E2AA86F005566E5 /* SharedMovieModule */,
 			);
 			productName = Core;
 			productReference = 1D47EE822E0D2AB500A2C96D /* Core.framework */;
@@ -190,7 +190,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				1D47EF4B2E0D567B00A2C96D /* XCRemoteSwiftPackageReference "Alamofire" */,
-				1DFBDD0A2E28BC6700C0ABA4 /* XCRemoteSwiftPackageReference "MovieCatalogShared" */,
+				1D7DE5072E2AA86F005566E5 /* XCRemoteSwiftPackageReference "SharedMovieModule" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1D47EE832E0D2AB500A2C96D /* Products */;
@@ -510,12 +510,12 @@
 				minimumVersion = 5.10.2;
 			};
 		};
-		1DFBDD0A2E28BC6700C0ABA4 /* XCRemoteSwiftPackageReference "MovieCatalogShared" */ = {
+		1D7DE5072E2AA86F005566E5 /* XCRemoteSwiftPackageReference "SharedMovieModule" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RFDTYAA/MovieCatalogShared.git";
+			repositoryURL = "https://github.com/RFDTYAA/SharedMovieModule.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.6;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -526,10 +526,10 @@
 			package = 1D47EF4B2E0D567B00A2C96D /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		1DFBDD0B2E28BC6700C0ABA4 /* Shared */ = {
+		1D7DE5082E2AA86F005566E5 /* SharedMovieModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1DFBDD0A2E28BC6700C0ABA4 /* XCRemoteSwiftPackageReference "MovieCatalogShared" */;
-			productName = Shared;
+			package = 1D7DE5072E2AA86F005566E5 /* XCRemoteSwiftPackageReference "SharedMovieModule" */;
+			productName = SharedMovieModule;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

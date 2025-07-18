@@ -1,8 +1,0 @@
-"popular_movies" = "Film Populer";
-"favorites" = "Favorit";
-"about_me" = "Tentang Saya";
-"search_movies_prompt" = "Cari film...";
-"loading_movies" = "Memuat Film...";
-"no_favorite_movies" = "Belum ada film favorit.";
-"failed_to_load_data" = "Gagal memuat data film.";
-"overview" = "Sinopsis";

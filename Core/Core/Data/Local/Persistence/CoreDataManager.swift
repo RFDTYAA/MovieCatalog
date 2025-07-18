@@ -1,20 +1,15 @@
 import CoreData
 import Foundation
 
-// Jadikan class ini public agar bisa diakses dari luar modul
 public final class CoreDataManager {
     public static let shared = CoreDataManager()
     private init() {}
-
-    // Helper untuk menemukan bundle dari modul Core
     private class var coreBundle: Bundle {
         return Bundle(for: CoreDataManager.self)
     }
 
     public lazy var container: NSPersistentContainer = {
-        let modelName = "Movie_Catalog" // Pastikan nama ini sama persis dengan file .xcdatamodeld
-
-        // Cari model di dalam bundle 'Core'
+        let modelName = "Movie_Catalog"
         guard let modelURL = CoreDataManager.coreBundle.url(forResource: modelName, withExtension: "momd") else {
             fatalError("--- KRITIS --- Gagal menemukan Data Model file di dalam bundle Core: \(modelName).momd")
         }

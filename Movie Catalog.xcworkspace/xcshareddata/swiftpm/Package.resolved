@@ -1,5 +1,5 @@
 {
-  "originHash" : "1e0e1c386a11f9bddb4d3727f0c417844a2bf10fe615eb2c157765fb70c063da",
+  "originHash" : "26700e34c6a0d3056804cc3d28da6a3993b05a06d24cf7c2b89bbdfc8dc595fb",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "010a06c4387cea2d13606222b6c08e0454e6dd2d",
         "version" : "8.3.3"
+      }
+    },
+    {
+      "identity" : "moviecatalogshared",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RFDTYAA/MovieCatalogShared.git",
+      "state" : {
+        "revision" : "43168828aca0525c953c9c245e9dc7e4241fab11",
+        "version" : "1.1.0"
       }
     },
     {

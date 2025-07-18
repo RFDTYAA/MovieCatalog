@@ -1,8 +1,0 @@
-"popular_movies" = "Popular Movies";
-"favorites" = "Favorites";
-"about_me" = "About Me";
-"search_movies_prompt" = "Search movies...";
-"loading_movies" = "Loading Movies...";
-"no_favorite_movies" = "No favorite movies yet.";
-"failed_to_load_data" = "Failed to load movie data.";
-"overview" = "Overview";
